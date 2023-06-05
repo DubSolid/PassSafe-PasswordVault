@@ -7,7 +7,6 @@ from functions.item_operations import item_listing
 
 
 def user_menu(db, logged_in, username, user_id):
-
     while logged_in:
         print('Logged in as ' + tcolors.GREEN (f'{username}'))
         print('Please choose an option:')
